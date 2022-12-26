@@ -1,0 +1,87 @@
+Flask==2.0.2
+jinja2==3.0.3
+Werkzeug~=2.0.2
+
+requests==2.28.1
+gunicorn
+
+cryptography==38.0.1
+
+# Flask Extensions
+Flask-Assets>=0.12,<2.1.0
+
+# Branch that contains a Unicode bug fix - use until https://github.com/miracle2k/webassets/pull/482 is published
+webassets==2.0
+
+Flask-Caching>=1.3.3
+Flask-Login==0.6.2
+Flask-DebugToolbar==0.13.1
+Flask-Script==2.0.6
+Flask-WTF==1.0.1
+wtforms[email]
+
+# OAuth
+Flask-Dance[sqla]
+
+
+Flask-RESTful==0.3.9
+Flask-Testing>=0.6.2,<1.0
+
+Flask-SocketIO>=3.1.0 # Realtime Websockets
+python-engineio>=3.0.0 # Needed to fix startup error
+
+Flask-Mail
+Flask-Limiter==2.6.3
+
+# Admin
+Flask-Admin>=1.5.6
+
+# Database
+pymysql==1.0.2
+psycopg2-binary
+sqlalchemy==1.4.42
+sqlalchemy-utils==0.38.3 # Provides extra datatypes
+
+# Timezones
+pytz
+arrow
+
+# Email
+pynliner<1.0
+
+# File Storage
+flask-cloudy
+fasteners
+
+# Flask DB Extensions
+Flask-SQLAlchemy==2.5.1
+Flask-SQLAlchemy-Cache==0.1.5
+Flask-Migrate==2.7.0
+
+# Caching
+redis==4.3.4
+
+# Job Queue
+Flask-RQ2==18.3
+rq==1.11.1
+rq-dashboard==0.6.1
+
+# Billing
+stripe==2.76.0
+
+# Error Tracking
+raven[flask]
+
+# Other
+itsdangerous==2.1.2
+cssmin==0.2.0
+jsmin==3.0.1
+hashids==1.3.1
+humanize==4.4.0
+
+# Testing
+pytest==6.2.5
+pytest-cov==3.0.0
+mccabe==0.6.1
+flake8==4.0.1
+
